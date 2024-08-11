@@ -1,7 +1,7 @@
 from imdb import Cinemagoer
 import requests
 
-
+    def (self):
 ia = Cinemagoer()
 movies = ia.search_movie('Inception')
 movie = movies[0]
