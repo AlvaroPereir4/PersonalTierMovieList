@@ -10,35 +10,26 @@
 </head>
 <body>
     <header>
-        <h1>Minha Tier List de Filmes</h1>
-        <div class="search-container">
-            <input type="text" id="search" placeholder="Pesquise por um filme...">
-            <button id="search-btn">Buscar</button>
-        </div>
+        <h1>MovieTierList</h1>
     </header>
-
-    <main>
-        <section id="tier-list">
-            <div class="tier" id="tier-s">
-                <h2>S Tier</h2>
-                <div class="tier-items"></div>
+    <div class="container">
+        <main>
+            <!-- Conteúdo principal do site -->
+        </main>
+        <aside>
+            <div class="search-box">
+                <h2>Search</h2>
+                <input type="text" id="search" placeholder="Digite o nome do filme...">
+                <button onclick="searchMovies()">Pesquisar</button>
             </div>
-            <div class="tier" id="tier-a">
-                <h2>A Tier</h2>
-                <div class="tier-items"></div>
+            <div class="results-box">
+                <h2>Results</h2>
+                <div id="results">
+                    <!-- Resultados da pesquisa aparecerão aqui -->
+                </div>
             </div>
-            <div class="tier" id="tier-b">
-                <h2>B Tier</h2>
-                <div class="tier-items"></div>
-            </div>
-            <!-- Adicione mais tiers conforme necessário -->
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2024 Minha Tier List de Filmes</p>
-    </footer>
-
-    <script></script>
+        </aside>
+    </div>
+    <script src="{% static 'js/script.js' %}"></script>
 </body>
 </html>

@@ -4,6 +4,9 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
 }
 
 header {
@@ -14,25 +17,39 @@ header {
 }
 
 .container {
-    width: 80%;
-    margin: 0 auto;
+    display: flex;
+    height: calc(100vh - 60px); /* Ajuste de acordo com a altura do header */
+}
+
+main {
+    flex: 1;
     padding: 20px;
     background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h1 {
-    font-size: 24px;
+aside {
+    width: 30%;
+    background-color: #f0f0f0;
+    padding: 20px;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
 }
 
-p {
-    line-height: 1.6;
+.search-box {
+    margin-bottom: 20px;
+}
+
+.search-box h2 {
+    margin-top: 0;
+}
+
+input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-right: 2px;
 }
 
 button {
-    display: inline-block;
-    padding: 10px 20px;
+    padding: 10px 15px;
     font-size: 16px;
     color: white;
     background-color: #007BFF;
@@ -43,4 +60,16 @@ button {
 
 button:hover {
     background-color: #0056b3;
+}
+
+.results-box {
+    margin-top: 20px;
+}
+
+.results-box h2 {
+    margin-top: 0;
+}
+
+#results {
+    margin-top: 10px;
 }
