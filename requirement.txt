@@ -1,2 +1,0 @@
-Django==5.0 # ver direitin as versoes
-python-dotenv==1.0.0
