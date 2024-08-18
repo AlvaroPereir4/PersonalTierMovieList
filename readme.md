@@ -10,3 +10,4 @@ Library rep: https://github.com/cinemagoer/cinemagoer
 * Documentação geral: https://docs.djangoproject.com/en/5.1/topics/http/urls/
 * Django settings documentation: https://docs.djangoproject.com/en/5.1/topics/settings/
 
+* Funcionamento da relação entre URLs e Views em Django:https://www.youtube.com/watch?v=RowB5QR_IjY
