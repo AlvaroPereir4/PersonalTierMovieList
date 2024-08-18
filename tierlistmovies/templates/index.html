@@ -1,11 +1,44 @@
+{% load static %}
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Minha Tier List de Filmes</title>
+    <link rel="stylesheet" href="{% static '/styles/style.css' %}">
+    tierlistmovies\static\styles\style.css
 </head>
 <body>
-    <h1>aobaaa</h1>
+    <header>
+        <h1>Minha Tier List de Filmes</h1>
+        <div class="search-container">
+            <input type="text" id="search" placeholder="Pesquise por um filme...">
+            <button id="search-btn">Buscar</button>
+        </div>
+    </header>
+
+    <main>
+        <section id="tier-list">
+            <div class="tier" id="tier-s">
+                <h2>S Tier</h2>
+                <div class="tier-items"></div>
+            </div>
+            <div class="tier" id="tier-a">
+                <h2>A Tier</h2>
+                <div class="tier-items"></div>
+            </div>
+            <div class="tier" id="tier-b">
+                <h2>B Tier</h2>
+                <div class="tier-items"></div>
+            </div>
+            <!-- Adicione mais tiers conforme necessário -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Minha Tier List de Filmes</p>
+    </footer>
+
+    <script></script>
 </body>
 </html>
