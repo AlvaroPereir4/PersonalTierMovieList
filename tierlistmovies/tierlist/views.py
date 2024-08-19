@@ -1,7 +1,6 @@
-# views.py
 from django.shortcuts import render
 from django.http import JsonResponse
-from MovieSearch import MovieSearch  # Certifique-se de que MovieSearch está no mesmo diretório
+from MovieSearch import MovieSearch
 
 
 def index(request):
