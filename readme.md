@@ -15,5 +15,7 @@ Documentação geral: https://docs.djangoproject.com/en/5.1/topics/http/urls/
 Django settings documentation: https://docs.djangoproject.com/en/5.1/topics/settings/
 
 - Funcionamento da relação entre URLs e Views em Django:
-https://www.youtube.com/watch?v=RowB5QR_IjY
-https://cursos.alura.com.br/course/django-templates-boas-praticas/task/112333
+
+-- https://www.youtube.com/watch?v=RowB5QR_IjY
+-- https://cursos.alura.com.br/course/django-templates-boas-praticas/task/112333
+-- Realização de deploy com o Heroku, pois possui maior compatibilidade com aplicações Django: https://www.youtube.com/watch?v=rJJs7SurUvg
