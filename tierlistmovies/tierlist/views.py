@@ -3,6 +3,7 @@ from django.shortcuts import render
 from django.http import JsonResponse
 from MovieSearch import MovieSearch  # Certifique-se de que MovieSearch está no mesmo diretório
 
+
 def index(request):
     return render(request, 'index.html')
 
