@@ -15,3 +15,4 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'tierlistmovies.settings')
 
 application = get_wsgi_application()
 application = WhiteNoise(application)
+app = application
