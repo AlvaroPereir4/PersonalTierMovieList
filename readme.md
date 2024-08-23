@@ -18,3 +18,4 @@ Library rep: https://github.com/cinemagoer/cinemagoer
 - https://www.youtube.com/watch?v=RowB5QR_IjY
 - https://cursos.alura.com.br/course/django-templates-boas-praticas/task/112333
 - Realização de deploy com o Heroku, pois possui maior compatibilidade com aplicações Django: https://www.youtube.com/watch?v=rJJs7SurUvg
+- https://www.youtube.com/watch?v=I5x8lAVQ8QQ
