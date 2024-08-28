@@ -2,13 +2,6 @@
   "version": 2,
   "builds": [
     {
-      "src": "build_files.sh",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "staticfiles"
-      }
-    },
-    {
       "src": "tierlistmovies/wsgi.py",
       "use": "@vercel/python",
       "config": {
@@ -17,10 +10,6 @@
     }
   ],
   "routes": [
-    {
-      "src": "/tierlistmovies/static/style.css",
-      "dest": "/tierlistmovies/static/style.css"
-    },
     {
       "src": "/static/(.*)",
       "dest": "/static/$1"
