@@ -1,10 +1,3 @@
-#!/bin/bash
-
-# Exibir mensagens de log para debugging
-echo "Iniciando o script de build..."
-
-# Instalar dependências do sistema necessárias (se aplicável)
-echo "Instalando Python 3..."
 yum install -y python3
 
 # Atualizar pip para a versão mais recente
