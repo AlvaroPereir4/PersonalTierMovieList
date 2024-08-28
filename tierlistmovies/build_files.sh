@@ -1,3 +1,4 @@
+chmod +x build_files.sh
 yum install -y python3
 
 # Atualizar pip para a versão mais recente
