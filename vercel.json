@@ -18,8 +18,8 @@
   ],
   "routes": [
     {
-      "src": "/tierlistmovies/static/style.css",
-      "dest": "/tierlistmovies/static/style.css"
+      "src": "/tierlistmovies/style.css",
+      "dest": "/tierlistmovies/style.css"
     },
     {
       "src": "/static/(.*)",
