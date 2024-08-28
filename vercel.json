@@ -9,7 +9,7 @@
       }
     },
     {
-      "src": "tierlistmovies/wsgi.py",
+      "src": "tierlistmovies/tierlistmovies/wsgi.py",
       "use": "@vercel/python",
       "config": {
         "runtime": "python3.9"
