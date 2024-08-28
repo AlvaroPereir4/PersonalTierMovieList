@@ -5,7 +5,7 @@
       "src": "build_files.sh",
       "use": "@vercel/static-build",
       "config": {
-        "distDir": "tierlistmovies/staticfiles"
+        "distDir": "staticfiles"
       }
     },
     {
@@ -18,8 +18,12 @@
   ],
   "routes": [
     {
-      "src": "styles/static/(.*)",
-      "dest": "styles/static/$1"
+      "src": "/styles/style.css",
+      "dest": "/styles/style.css"
+    },
+    {
+      "src": "/static/(.*)",
+      "dest": "/static/$1"
     },
     {
       "src": "/(.*)",
