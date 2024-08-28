@@ -5,7 +5,7 @@
       "src": "build_files.sh",
       "use": "@vercel/static-build",
       "config": {
-        "distDir": "/tierlistmovies/staticfiles"
+        "distDir": "tierlistmovies/staticfiles"
       }
     },
     {
@@ -18,16 +18,12 @@
   ],
   "routes": [
     {
-      "src": "/tierlistmovies/style.css",
-      "dest": "/tierlistmovies/style.css"
-    },
-    {
       "src": "/static/(.*)",
       "dest": "/static/$1"
     },
     {
       "src": "/(.*)",
-      "dest": "tierlistmovies/wsgi.py"
+      "dest": "tierlistmovies/tierlistmovies/wsgi.py"
     }
   ]
 }
