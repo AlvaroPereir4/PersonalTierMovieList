@@ -27,7 +27,7 @@
     },
     {
       "src": "/(.*)",
-      "dest": "tierlistmovies/wsgi.py"
+      "dest": "/tierlistmovies/tierlistmovies/wsgi.py"
     }
   ]
 }
