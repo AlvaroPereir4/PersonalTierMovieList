@@ -12,4 +12,4 @@ python3 tierlistmovies/manage.py collectstatic --noinput
 
 # Verifica o conteúdo do diretório staticfiles
 echo "Conteúdo do diretório tierlistmovies:"
-ls -R /vercel/path0/tierlistmovies/
+ls -R tierlistmovies/staticfiles

@@ -5,7 +5,7 @@
       "src": "build_files.sh",
       "use": "@vercel/static-build",
       "config": {
-        "distDir": "/tierlistmovies/staticfiles"
+        "distDir": "tierlistmovies/staticfiles"
       }
     },
     {
