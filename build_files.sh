@@ -8,8 +8,12 @@ python3 --version
 # Instalar Python 3 se necessário
 yum install -y python3
 
+# Criar e ativar ambiente virtual
+python3 -m venv venv
+source venv/bin/activate
+
 # Atualizar pip
-python3 -m pip install --upgrade pip
+pip install --upgrade pip
 
 # Instalar dependências do projeto
 pip install -r requirements.txt
