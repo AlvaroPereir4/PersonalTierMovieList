@@ -9,9 +9,10 @@
       }
     },
     {
-      "src": "tierlistmovies/tierlistmovies/wsgi.py",
+      "src": "tierlistmovies/wsgi.py",
       "use": "@vercel/python",
       "config": {
+        "maxLambdaSize": "15mb",
         "runtime": "python3.9"
       }
     }
@@ -27,7 +28,7 @@
     },
     {
       "src": "/(.*)",
-      "dest": "tierlistmovies/tierlistmovies/wsgi.py"
+      "dest": "tierlistmovies/wsgi.py"
     }
   ]
 }
