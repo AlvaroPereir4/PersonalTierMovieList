@@ -5,30 +5,25 @@
       "src": "build_files.sh",
       "use": "@vercel/static-build",
       "config": {
-        "distDir": "tierlistmovies/staticfiles"
+        "distDir": "staticfiles"
       }
     },
     {
-      "src": "/tierlistmovies/wsgi.py",
+      "src": "tierlistmovies/tierlistmovies/wsgi.py",
       "use": "@vercel/python",
       "config": {
-        "maxLambdaSize": "15mb",
         "runtime": "python3.9"
       }
     }
   ],
   "routes": [
     {
-      "src": "/styles/style.css",
-      "dest": "/styles/style.css"
-    },
-    {
       "src": "/static/(.*)",
       "dest": "/static/$1"
     },
     {
       "src": "/(.*)",
-      "dest": "/tierlistmovies/wsgi.py"
+      "dest": "tierlistmovies/tierlistmovies/wsgi.py"
     }
   ]
 }
